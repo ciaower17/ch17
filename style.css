@@ -149,3 +149,34 @@ p{
     position: relative;
     top: 2px;
 }
+
+@media (max-width:700px){
+    .all{
+        width: 350px;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+        background-color: hsl(213, 19%, 18%);
+        color: white;
+        border-radius: 30px;
+        padding-left: 35px;
+        padding-top: 35px;
+        visibility: visible;
+    }
+    .submitted{
+        visibility: hidden;
+        position: absolute;
+        width: 350px;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+        background-color: hsl(213, 19%, 18%);
+        color: white;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
