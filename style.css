@@ -1,0 +1,151 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.submitted{
+    visibility: hidden;
+    position: absolute;
+    width: 440px;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.all{
+    width: 440px;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    border-radius: 30px;
+    padding-left: 35px;
+    padding-top: 35px;
+    visibility: visible;
+}
+
+.star{
+    width: 50px;
+    height: 50px;
+    background-color: hsl(210, 11%, 26%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Overpass', sans-serif;
+}
+
+p{
+    font-family: 'Overpass', sans-serif;
+    font-size: 0.96rem;
+    width: 85%;
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5;
+}
+
+.one,.two,.three,.four,.five{
+    width: 50px;
+    height: 50px;
+    background-color: hsl(210, 11%, 26%);
+    border-radius: 50%;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:hsl(216, 12%, 54%) ;
+    font-size: 1.2rem;
+    margin-right: 35px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.submit{
+    width: 90%;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    border: 0;
+    height: 50px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.subh1{
+    margin: 0;
+}
+
+.subp{
+    margin-bottom: 15px;
+}
+
+.cont{
+    width: 200px;
+    height: 25px;
+    background-color: hsl(210, 11%, 26%);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.five:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.four:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.three:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.two:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.one:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.selected{
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
