@@ -89,8 +89,11 @@ $(".five").click(function(){
 })
 
 
+
 $(".submit").click(function(){
-    $(".all").css("visibility","hidden")
-    $(".submitted").css("visibility","visible")
-    $(".selected").text("You selected " + lastSelected + " out of 5");
+    if(lastSelected!=null){
+        $(".all").css("visibility","hidden")
+        $(".submitted").css("visibility","visible")
+        $(".selected").text("You selected " + lastSelected + " out of 5");
+    }
 })
